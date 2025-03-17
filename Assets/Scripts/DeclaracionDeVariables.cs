@@ -11,7 +11,16 @@ public class DeclaracionDeVariables : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //inicializo variables
+        edadUsuario = 45;
+        sueldoUsuario = 1000.00F;
+        domicilio = "Libertador 7836";
+        estaAprobado = true;
+        //escribo las variables en consola
+        Debug.Log(edadUsuario);
+        Debug.Log(sueldoUsuario);
+        Debug.Log(domicilio);
+        Debug.Log(estaAprobado);
     }
 
     // Update is called once per frame
